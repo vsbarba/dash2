@@ -259,7 +259,6 @@ module.exports = function (grunt) {
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
             '_bower_components/jquery/jquery.js',
-            '_bower_components/font-awesome/*',
             '_bower_components/font-awesome/fonts/*',
             '_bower_components/font-awesome/css/*',
             'favicon.ico',
