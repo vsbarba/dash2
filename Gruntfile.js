@@ -255,12 +255,13 @@ module.exports = function (grunt) {
             // Copy moves asset files and directories.
             'assets/img/**/*',
             'assets/fonts/**/*',
+            'assets/css/**/*',
             // Like Jekyll, exclude files & folders prefixed with an underscore.
             '!**/_*{,/**}',
             // Explicitly add any files your site needs for distribution here.
             '_bower_components/jquery/jquery.js',
-            '_bower_components/font-awesome/fonts/*',
-            '_bower_components/font-awesome/css/*',
+            // '_bower_components/font-awesome/fonts/*',
+            // '_bower_components/font-awesome/css/*',
             'favicon.ico',
             'apple-touch*.png'
           ],
