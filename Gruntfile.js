@@ -261,6 +261,7 @@ module.exports = function (grunt) {
             '_bower_components/jquery/jquery.js',
             '_bower_components/font-awesome/*',
             '_bower_components/font-awesome/fonts/*',
+            '_bower_components/font-awesome/css/*',
             'favicon.ico',
             'apple-touch*.png'
           ],
